@@ -1,7 +1,7 @@
 # RetroCaptioner
 
-## Title:
+## Title
 RetroCaptioner：Beyond Attention in End-to-end Retrosynthesis Transformer via Dynamically Integrated Learnable Graph Representation
-## abstract：
+## abstract
 Retrosynthesis is crucial in drug discovery by helping identify simpler precursor molecules from novel drugs. With the growing advancement and practicality of language models, Transformer-based architectures are increasingly used to automate this process. However, most existing methods lack chemically plausible constraints and are not efficient for capturing long-range characteristics. In this work, we present RetroCaptioner, a novel Transformer-based architecture for one-step retrosynthesis that combines the power of Transformer text generation and molecular graph encoder. Specifically, RetroCaptioner incorporates the Contrastive Reaction-Center Captioner, which dynamically captions the reactive center. This strategy guides attention model training through contrastive learning, surpassing traditional attention mechanisms, and combines the two-stage processes of graph neural network-based methods into one-step learning. The entire framework is in an end-to-end fashion, sequentially generates final reactants, and produces more practical and accurate predictions. Evaluated on the standard benchmark dataset USPTO-50k, our model achieves the state-of-the-art performance for all Transformer-based retrosynthesis with a promising 65.4% top-1 and 91.1% top-10 accuracy.
 ![image](model.png)
